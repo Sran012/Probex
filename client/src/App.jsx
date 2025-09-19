@@ -7,12 +7,12 @@ import {Madeby} from "../components/madeby"
 
 export function App() {
     return (
-        <>
+        <div className="bg-slate-800">
             <Navbar/>
             <Navline/>
             <Grid/>
             <Madeby/>
-        </>
+        </div>
     )
     
 }

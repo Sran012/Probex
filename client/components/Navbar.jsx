@@ -1,57 +1,33 @@
-// export function Navbar(){
-//     return (
-//         <div className='h-25 border-b-blue-800 bg-blue-950'>
-//             <div className="flex justify-center gap-[50vw] pt-4">
-//                 <div className="flex justify-start gap-6">
-//                     <h1>hello</h1>
-//                     <h1>hello</h1>
-//                 </div>
-//                 <div className="flex justify-end gap-6">
-//                     <button>login</button>
-//                     <button>signup</button>
-//                 </div>
-//             </div>
 
-//             <div className="flex justify-center gap-[38vw]">
-//                 <div className="flex justify-start gap-4">
-//                     <p>hello</p>
-//                     <p>hello</p>
-//                     <p>hello</p>
-//                     <p>hello</p>
-//                     <p>hello</p>
-//                 </div>
-//                 <div className="flex justify-end">
-//                     <p>more {">"}</p>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
 
 export function Navbar(){
     return (
-        <div className='flex-col lg:mx-40 pt-2 space-y-4 mx-4 sm:mx-6 md:mx-16'>
+        <div className='flex-col lg:mx-40 pt-2 space-y-4 mx-4 sm:mx-6 px-2 md:mx-16 overflow-hidden'>
             <div className='flex justify-between'>
                 <div className="flex gap-4">
-                    <button className="sm:pl-2 text-3xl font-sp">Probex</button>
-                    <button></button>
+                    <button className=" text-3xl font-sp text-white">Probex</button>
                 </div>
 
-                <input placeholder="search" className="border-1 rounded-3xl text-center w-[30vw]"></input>
+                <input placeholder="search" className="border-1 border-white rounded-3xl text-center text-white w-[30vw] hidden sm:block"></input>
 
-                <div className="flex gap-4 sm:pr-2">
-                    <button>login</button>
-                    <button>signup</button>
+                <div className="flex gap-2 sm:pr-2">
+                    <button className="bg-slate-600 rounded-2xl p-1 text-white flex justify-center items-center min-w-[60px] h-8 cursor-pointer ">login</button>
+                    <button className="bg-slate-600 rounded-2xl p-1 text-white flex justify-center items-center min-w-[70px] h-8 cursor-pointer">signup</button>
                 </div>
             </div>
 
 
-            <div className="flex justify-start gap-4 sm:pl-2">
-                <p>sports</p>
-                <p>entertainment</p>
-                <p>news</p>
-                <p>industry</p>
-                <p>overseas</p>
+            <div className="flex justify-start gap-4 sm:pl-2 text-white">
+                <a href="">Trending</a>
+                <a href="">sports</a>
+                <a href="">entertainment</a>
+                <a href="">news</a>
+                <a href="">industry</a>
+                <a href="">overseas</a>
+                <a href="">Politics</a>
+                <a href="">Automobiles</a>
+                <a href="">Stocks</a>
+                <a href=""></a>
             </div>
         </div>
     )

@@ -17,8 +17,8 @@ export function Navbar(){
             </div>
 
 
-            <div className="flex justify-start gap-4 sm:pl-2 text-white">
-                <a href="">Trending</a>
+            <div className="flex justify-start gap-4 text-white whitespace-nowrap overflow-x-auto scrollbar-hide">
+                <a href="">Trending 🚀</a>
                 <a href="">sports</a>
                 <a href="">entertainment</a>
                 <a href="">news</a>

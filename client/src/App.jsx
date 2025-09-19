@@ -2,7 +2,8 @@ import { Navbar } from "../components/Navbar";
 import { Navline } from "../components/Navline";
 import { Grid } from "../components/Grid";
 import "./App.css";
-import {Madeby} from "../components/madeby"
+// import {Madeby} from "../components/madeby"
+import {Footer} from "../components/Footer"
 
 
 export function App() {
@@ -11,7 +12,8 @@ export function App() {
             <Navbar/>
             <Navline/>
             <Grid/>
-            <Madeby/>
+            {/* <Madeby/> */}
+            <Footer/>
         </div>
     )
     

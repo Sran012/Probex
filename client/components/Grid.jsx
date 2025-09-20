@@ -9,7 +9,7 @@ export function Grid(){
                         <a href="">
                         <header className="pl-4 pt-2 pb-2 bg-white/10 text-white rounded-t-2xl font-bold flex-shrink-0 hover:underline">{item.header}</header>
                         </a>
-                        
+
                         <div className="h-full bg-white/3 rounded-b-xl text-white">
                             <div className="h-8"></div>
                             
